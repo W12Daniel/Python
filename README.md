@@ -3,7 +3,7 @@ from Tkinter import*
 from math import*
 
 #####def move():#####  
-	global x,y,dx,dy,flag  
+ global x,y,dx,dy,flag  
 	x=x+dx  
 	y=y+dy  
 	if x>=360:  
