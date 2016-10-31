@@ -2,7 +2,7 @@
 from Tkinter import*
 from math import*
 
-def move(): 
+def move():  
 global x,y,dx,dy,flag  
 	x=x+dx  
 	y=y+dy  
