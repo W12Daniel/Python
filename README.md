@@ -2,8 +2,8 @@
 from Tkinter import*
 from math import*
 
-def move():  
- global x,y,dx,dy,flag  
+#####def move():#####  
+	global x,y,dx,dy,flag  
 	x=x+dx  
 	y=y+dy  
 	if x>=360:  
@@ -17,7 +17,7 @@ def move():
 	can1.coords(oval2,x+30,y+30,x-30,y-30)  
 	if flag>0:  
 		abl1.after(50,move)  
-def start():  
+#####def start():##### 
 	global flag  
 	if flag==0:  
 		flag=1  
