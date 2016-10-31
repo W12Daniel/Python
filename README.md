@@ -27,10 +27,10 @@ from math import*
 	
 	
 #####x,y,dx,dy,flag=10,10,15,0,0#####
-abl1=Tk()
-can1=Canvas(abl1,bg="dark grey",height=400,width=400)
-can1.pack()
-oval2=can1.create_oval(x-30,y-30,x+30,y+30,fill="red")
-but2=Button(abl1,text="start",command=start).pack()
-but3=Button(abl1,text="quit",command=abl1.destroy).pack()
-abl1.mainloop()
+#####abl1=Tk()#####
+#####can1=Canvas(abl1,bg="dark grey",height=400,width=400)#####
+#####can1.pack()#####
+#####oval2=can1.create_oval(x-30,y-30,x+30,y+30,fill="red")#####
+#####but2=Button(abl1,text="start",command=start).pack()#####
+#####but3=Button(abl1,text="quit",command=abl1.destroy).pack()#####
+#####abl1.mainloop()#####
