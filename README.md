@@ -34,3 +34,5 @@ oval2=can1.create_oval(x-30,y-30,x+30,y+30,fill="red")
 but2=Button(abl1,text="start",command=start).pack()  
 but3=Button(abl1,text="quit",command=abl1.destroy).pack()  
 abl1.mainloop()  
+
+ksdsdl
